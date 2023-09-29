@@ -1,0 +1,80 @@
+.main-post-page{
+    background-color: #EBEEF5;
+    width: 40%;
+    margin: auto;
+    border-radius: 10px;
+    height: 70vh;
+    padding: 50px;
+}
+
+.top {
+    display: flex; 
+    gap: 20px;
+}
+
+.top img{
+   height: 60px;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+.flex h4{
+    font-size: 20px;
+    line-height: 1.8;
+    color: rgb(17, 17, 18);
+    margin-top: -5px;
+}
+.flex h4 img{
+    height: 19px;
+}
+
+.flex span{
+    margin-top: -30px;
+}
+.main-container {
+    margin-left: 80px;
+}
+
+.main-container .screen{
+    width: 100% !important;
+    background-color: rgb(255, 255, 255) !important;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.social img{
+    width: 350px;
+    margin-left: 30px;
+}
+
+.second-container input{
+    height: 30px;
+    width: 380px;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+    height: 80px;
+}
+
+.main-container button {
+    width: 120px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1A87EC;
+    font-size: 16px;
+    padding: 5px 20px ;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.main-container button:hover{
+    background-color: #fff;
+    color: black;
+    transition: ease-in;
+    transition: 0.3s;
+}
