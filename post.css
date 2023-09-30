@@ -2,6 +2,10 @@ body{
     background-color: #1A87EC;
 }
 
+a img{
+    height: 40px;
+}
+
 .main-post-page{
     background-color: #EBEEF5;
     width: 40%;
@@ -45,6 +49,7 @@ body{
     background-color: rgb(255, 255, 255) !important;
     height: 200px;
     border-radius: 5px;
+    padding: 0px 10px;
 }
 
 .social img{
@@ -57,8 +62,10 @@ body{
     width: 380px;
     outline: none;
     border: none;
-    margin-left: 10px;
+    margin-left: 20px;
     height: 80px;
+    border-radius: 5px;
+    padding: 0px 10px;
 }
 
 .main-container button {
