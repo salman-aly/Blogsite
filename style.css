@@ -59,7 +59,7 @@ input ::-moz-focus-inner {
     color: #fff;
     text-align: center;
     text-decoration: none;
-   line-height: 1.8;
+    line-height: 1.8;
 }
 
 a:hover {
@@ -77,6 +77,6 @@ a:hover {
     padding-bottom: 20px;
 }
 
-.social img{
+.social img {
     height: 30px;
-} 
+}
