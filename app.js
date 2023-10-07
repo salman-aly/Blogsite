@@ -19,3 +19,13 @@
 //   // document.writeln("@ " + updateUsername);
 //   document.getElementById("textarea").value = "";
 // }
+
+
+function post() {
+  var title = document.getElementById("title");
+  var description = document.getElementById("descri");
+
+  console.log(title.value, description.value)
+
+
+}
