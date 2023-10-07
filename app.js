@@ -25,7 +25,22 @@ function post() {
   var title = document.getElementById("title");
   var description = document.getElementById("descri");
 
-  console.log(title.value, description.value)
+  var posts = document.getElementById("posts")
+  posts.innerHTML = "<h1>" + title.value+ "</h1>">
+   `<div>
+  <div>
+    <h5>Post</h5>
+  </div>
+  <div>
+    <h3>Title</h3>
+  </div>
+  <div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+      laborum.
+    </p>
+  </div>
+</div>`
 
 
 }
