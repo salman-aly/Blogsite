@@ -17,7 +17,7 @@
 }
 
 .main{
-    height: 400px;
+    height: 350px;
     width: 400px;
     border: 1px solid #dadada;
     display: flex;
@@ -25,4 +25,19 @@
     align-items: center;
     justify-content: center;
     margin: auto;
+}
+
+.main input{
+    width: 280px;
+    height: 25px;
+    margin-bottom: 20px;
+}
+
+.main button{
+    width: 280px;
+    height: 30px;
+    background-color: #1B5E20;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 30px;
 }
