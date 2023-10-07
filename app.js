@@ -7,13 +7,15 @@
 //     return false;
 //   }
 // }
-function showPost() {
-  var username = document.getElementById("username").value;
-  var text = document.getElementById("textarea").value;
-  var display = document.getElementById("screen");
-  display.innerHTML += "<br />" + text;
-  var newUser = document.getElementById("newUser");
-  // newUser.innerHTML = "welcome " + username.value;
-  // document.writeln("your usernaem is : " + username);
-  document.getElementById("textarea").value = "";
-}
+
+
+// function showPost() {
+//   var username = document.getElementById("username").value;
+//   var text = document.getElementById("textarea").value;
+//   var display = document.getElementById("screen");
+//   display.innerHTML += "<br />" + text;
+//   // var newUser = document.getElementById("newUser");
+//   // var updateUsername = (username.innerHTML = "welcome " + username);
+//   // document.writeln("@ " + updateUsername);
+//   document.getElementById("textarea").value = "";
+// }
