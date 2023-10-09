@@ -26,18 +26,16 @@ function post() {
   var description = document.getElementById("descri");
 
   var posts = document.getElementById("posts")
-  posts.innerHTML = "<h1>" + title.value+ "</h1>">
-   `<div>
+  posts.innerHTML += `<div class="posts">
   <div>
     <h5>Post</h5>
   </div>
   <div>
-    <h3>Title</h3>
+    <h3>${title.value}</h3>
   </div>
   <div>
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
-      laborum.
+      ${description.value}
     </p>
   </div>
 </div>`
