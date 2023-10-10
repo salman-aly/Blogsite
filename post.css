@@ -76,7 +76,7 @@
 
 .posts {
     height: 140px;
-    width: 350px;
+    width: 300px;
     border: 1px solid #1B5E20;
     border-radius: 5px;
     display: flex;
@@ -88,7 +88,6 @@
 }
 
 .posts{
-    background-image: url(images/3-removebg-preview.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
