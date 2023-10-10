@@ -25,7 +25,9 @@ function post() {
   var title = document.getElementById("title");
   var description = document.getElementById("descri");
   if (title.value.trim() && description.value.trim()) {
+
     var posts = document.getElementById("posts")
+    
     posts.innerHTML += `<div class="posts">
     <div>
       <h5>Post</h5>

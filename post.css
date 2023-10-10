@@ -75,8 +75,8 @@
 }
 
 .posts {
-    height: 300px;
-    width: 400px;
+    height: 140px;
+    width: 350px;
     border: 1px solid #1B5E20;
     border-radius: 5px;
     display: flex;
@@ -85,6 +85,13 @@
     justify-content: center;
     margin: auto;
     margin-bottom: 30px;
+}
+
+.posts{
+    background-image: url(images/3-removebg-preview.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .swal2-confirm {
