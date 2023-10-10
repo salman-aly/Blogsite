@@ -8,9 +8,6 @@ function post() {
     var posts = document.getElementById("posts")
 
     posts.innerHTML += `<div class="posts">
-    <div>
-      <h5>Post</h5>
-    </div>
      <div>
       <h3>${title.value}</h3>
      </div>
@@ -36,7 +33,8 @@ function post() {
 
 function selectedImage(src) {
   backgroundImage = src;
-  var bgImage = document.getElementsByClassName("")
+  var bgImage = document.getElementsByClassName("bg-img");
+
 }
 
 
