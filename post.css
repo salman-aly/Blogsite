@@ -96,8 +96,10 @@
 
 .swal2-confirm {
     background-color: #1B5E20 !important;
+    border: none !important;
 }
 
 .swal2-container {
     width: 100% !important;
+    border: none !important;
 }
