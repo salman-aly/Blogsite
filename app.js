@@ -1,4 +1,4 @@
-var backgroundImage;
+var backgroundImage = "";
 
 function post() {
   var title = document.getElementById("title");
@@ -31,10 +31,10 @@ function post() {
 }
 
 
-function selectedImage(src) {
-  backgroundImage = src;
-  var bgImage = document.getElementsByClassName("bg-img");
-
+function selectedImage(event) {
+  backgroundImage = event.target;
+  var bgImage = document.querySelector('.bg-img');
+  bgImage.style.backgroundImage = "`url ${backgroundImage}`"
 }
 
 
